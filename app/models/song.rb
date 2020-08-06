@@ -13,5 +13,6 @@ class Song < ActiveRecord::Base
       nil
     else 
       self.artist = drake
+    end
   end
 end
