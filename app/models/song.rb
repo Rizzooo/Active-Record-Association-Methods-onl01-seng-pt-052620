@@ -7,7 +7,7 @@ class Song < ActiveRecord::Base
   end
 
   def drake_made_this
-    Artist.new("Drake")
+    Artist.new(name: "Drake")
     
     if self.artist == "Drake"
       nil 
